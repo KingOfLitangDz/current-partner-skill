@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Runtime data (user's personal data, never commit)
+~/.local/share/current-partner/
+partner_data/
+*.jsonl
+profile.json
+meta.json
+index.json
+raw_materials/
+backups/
+
+# Temporary files
+/tmp/
+*.tmp
+*.log
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Environment
+.env
+.env.local
