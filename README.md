@@ -11,6 +11,9 @@
 
 Inspired by [前任.skill](https://github.com/therealXiaomanChu/ex-skill) — 从「回忆过去」变成「经营当下」。
 
+**语言 / Language：** [中文](#这是什么) · [English](./README_EN.md)
+
+📖 [安装指南](./INSTALL.md)
 ---
 
 ## 这是什么
@@ -52,7 +55,7 @@ Inspired by [前任.skill](https://github.com/therealXiaomanChu/ex-skill) — �
 
 一句话介绍一下你们的情况？
 
-> 在一起一年了 互联网前端 上海 大学同学
+> 北京 金融 认识一年了
 
 ✅ 知识库初始化完成！
 ```
@@ -255,21 +258,6 @@ python3 tools/web_server.py --data-dir ~/.local/share/current-partner
 - 🎨 甜蜜粉色主题，温暖美观
 - 📱 响应式设计，支持移动端
 - ⚡ 实时同步，操作直接写入文件
-
----
-
-## 与前任.skill 的区别
-
-| | 前任.skill | 现任.skill |
-|---|---|---|
-| **定位** | 回忆与疗愈 | 经营与辅助 |
-| **核心功能** | 对话模拟（像ta一样说话） | 知识库（记住ta的一切） |
-| **独有功能** | 争吵/分手档案 | 承诺追踪、回复建议、到期提醒、Web UI |
-| **数据结构** | Memory + Persona 双文件 | RAG 知识库（5维 JSONL） |
-| **更新方式** | 追加 + 纠正 | 增量/全量更新 |
-| **检索方式** | 全文嵌入 Skill | TF-IDF 本地检索 |
-| **图片支持** | — | AI 视觉解读截图 |
-| **可视化** | — | 🆕 Web 管理界面 |
 
 ---
 
